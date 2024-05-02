@@ -14,12 +14,13 @@
     text-align: center;
     font-size: 80px;
     font-style: normal;
+    background-color: lightgray;
 }
 
 .logo img{
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 190px;
 
 }
 
@@ -32,6 +33,8 @@ nav{
     text-align: center;
     font-size: 40px;
     font-weight: 150;
+    background-color: gray;
+    color: white
 }
 
 #texto{
@@ -69,5 +72,23 @@ nav{
 
 #voltar{
     position: absolute;
-    padding-left: 47%;
+    padding-left: 93.75%;
+}
+
+#enviar{
+    font-family: "Signika", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a{
+    background-color: gray;
+    color: white;
+}
+
+.quiz{
+    padding: 35px;
+    margin: 10px;
+    line-height: 65px;
 }
