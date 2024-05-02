@@ -1,3 +1,5 @@
+alert("Bem-vindo!")
+
 let imagens=['.img/corinthians.png','.img/sp.png','.img/palmeiras.png','.img/flamengo.jpg']
 let index=0
 let time = 1
