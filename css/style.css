@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: lightgrey;
 }
 
 .titulo{
@@ -36,20 +37,37 @@ nav{
 #texto{
     font-family: "Signika", sans-serif;
     font-size: 40px;
-    
+
 }
 
 #usuario{
     font-family: "Signika", sans-serif;
     font-size: 40px;
+
 }
 
 #senha{
     font-family: "Signika", sans-serif;
     font-size: 40px;
+
+}
+
+
+.login{
+    font-family: "Signika", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+
 }
 
 #login{
     font-family: "Signika", sans-serif;
     font-size: 40px;
+
+}
+
+#voltar{
+    position: absolute;
+    padding-left: 47%;
 }
