@@ -2,6 +2,7 @@ function responder(numeroPergunta) {
     let resposta;
     switch (numeroPergunta) {
         case 1:
+            // Pergunta 1: Freio
             resposta = prompt("Qual é a sua resposta para a pergunta 1?");
             if (resposta && resposta.toLowerCase() === "freio") {
                 alert("Resposta correta!");
@@ -10,6 +11,7 @@ function responder(numeroPergunta) {
             }
             break;
         case 2:
+            // Pergunta 2: Câmbio
             resposta = prompt("Qual é a sua resposta para a pergunta 2?");
             if (resposta && resposta.toLowerCase() === "cambio") {
                 alert("Resposta correta!");
@@ -18,6 +20,7 @@ function responder(numeroPergunta) {
             }
             break;
         case 3:
+            // Pergunta 3: Selim
             resposta = prompt("Qual é a sua resposta para a pergunta 3?");
             if (resposta && resposta.toLowerCase() === "selim") {
                 alert("Resposta correta!");
@@ -26,6 +29,7 @@ function responder(numeroPergunta) {
             }
             break;
         case 4:
+            // Pergunta 4: Bomba de Ar
             resposta = prompt("Qual é a sua resposta para a pergunta 4?");
             if (resposta && resposta.toLowerCase() === "bomba de ar") {
                 alert("Resposta correta!");
@@ -34,6 +38,7 @@ function responder(numeroPergunta) {
             }
             break;
         case 5:
+            // Pergunta 5: Suporte
             resposta = prompt("Qual é a sua resposta para a pergunta 5?");
             if (resposta && resposta.toLowerCase() === "suporte") {
                 alert("Resposta correta!");
@@ -42,6 +47,7 @@ function responder(numeroPergunta) {
             }
             break;
         case 6:
+            // Pergunta 6: Pedal
             resposta = prompt("Qual é a sua resposta para a pergunta 6?");
             if (resposta && resposta.toLowerCase() === "pedal") {
                 alert("Resposta correta!");
@@ -50,6 +56,7 @@ function responder(numeroPergunta) {
             }
             break;
         case 7:
+            // Pergunta 7: Roda
             resposta = prompt("Qual é a sua resposta para a pergunta 7?");
             if (resposta && resposta.toLowerCase() === "roda") {
                 alert("Resposta correta!");
@@ -58,6 +65,7 @@ function responder(numeroPergunta) {
             }
             break;
         case 8:
+            // Pergunta 8: Guidão
             resposta = prompt("Qual é a sua resposta para a pergunta 8?");
             if (resposta && resposta.toLowerCase() === "guidão") {
                 alert("Resposta correta!");
@@ -66,6 +74,7 @@ function responder(numeroPergunta) {
             }
             break;
         case 9:
+            // Pergunta 9: Protetor de Corrente
             resposta = prompt("Qual é a sua resposta para a pergunta 9?");
             if (resposta && resposta.toLowerCase() === "protetor de corrente") {
                 alert("Resposta correta!");
@@ -74,6 +83,7 @@ function responder(numeroPergunta) {
             }
             break;
         case 10:
+            // Pergunta 10: Bagageiro
             resposta = prompt("Qual é a sua resposta para a pergunta 10?");
             if (resposta && resposta.toLowerCase() === "bagageiro") {
                 alert("Resposta correta!");
@@ -82,6 +92,7 @@ function responder(numeroPergunta) {
             }
             break;
         default:
+            // Caso padrão para perguntas não reconhecidas
             alert("Pergunta não reconhecida.");
-        }
     }
+}
