@@ -1,7 +1,7 @@
 // Exibe uma mensagem de boas-vindas
 alert("Bem-vindo!");
 
-//------------------------------------------------------//
+//----------------------------------------------------//
 
 // Define um array com os caminhos das imagens para o slide show
 let imagens = ['./img/bike1.webp', './img/bike2.webp', './img/bike3.jpg', './img/bike4.webp'];
