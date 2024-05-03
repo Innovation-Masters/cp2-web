@@ -72,7 +72,8 @@ nav{
 
 #voltar{
     position: absolute;
-    padding-left: 93.75%;
+    padding-left: 87.5%;
+
 }
 
 #enviar{
@@ -92,3 +93,10 @@ a{
     margin: 10px;
     line-height: 65px;
 }
+
+.cor{
+width: 50px;
+height: 50px;
+background-color: grey;
+}
+

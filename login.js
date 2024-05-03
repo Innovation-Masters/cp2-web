@@ -9,3 +9,8 @@ function validar(){
         alert("Usuário ou senha inválidos");
     }
 }
+
+function trocar(cor){
+    document.body.style.background =cor;
+    document.getElementById('voltar').style.backgroundColor = cor;
+}
